@@ -9,6 +9,13 @@
  * Not as responsive as we wish.
  * Not a bug: failed to add next page feature for querying more than 20
    results per generate.
+   
+#### Some Procedures
+  * Used Google Places for initial get method of restaurants in radius.
+  * Used Google Maps to display the markers based on info received from Places.
+  * Used Photo_id to get URL for image about website.
+  * Also used latitude and longitude from Places to help get timezone and 
+     country of the location.
 
 #### And here's brief summary of this project:
 
@@ -40,10 +47,7 @@
  * [timezonedb API](https://timezonedb.com/api)
  * [Google Maps API](https://developers.google.com/maps/)
  * [Google Places API](https://developers.google.com/places/)
+
+
 Used some custom fonts.
 Alot of event listeners.
-### Some Procedures
- *Used Google Places for initial get method of restaurants in radius.
- *Used Google Maps to display the markers based on info received from Places.
- *Used Photo_id to get URL for image about website.
- *Also used latitude and longitude from Places to help get timezone and country of the location.
