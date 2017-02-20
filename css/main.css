@@ -1,0 +1,128 @@
+html, body {
+  height: 100%;
+  background-color: black;
+}
+body {
+  background-image: url("../img/bg1.jpg");
+}
+#map {
+  min-width: 400px;
+  width: 50%;
+  min-height: 600px;
+  height: 100%;
+  border: 5px solid black;
+}
+.msg {
+  display: none;
+  color: red;
+}
+
+.form-container {
+  padding-left: 30px;
+  width: 350px;
+}
+.form-container input {
+    width: 100%;
+    clear: both;
+}
+
+.lbl {
+  color: white;
+}
+
+.btn {
+  display: inline;
+  padding: 8px;
+}
+
+#gen-btn {
+  border-radius: 7px;
+  text-shadow: 0px 1px 8px #240924;
+  box-shadow: 0px 1px 3px #666666;
+  font-family: Andale Mono;
+  color: #ffffff;
+  font-size: 15px;
+  background: #3cb040;
+  padding: 10px 20px 10px 20px;
+  border: solid #ebe9e6 4px;
+  text-decoration: none;
+}
+#reset-btn {
+  border-radius: 7px;
+  text-shadow: 0px 1px 8px #240924;
+  box-shadow: 0px 1px 3px #666666;
+  font-family: Andale Mono;
+  color: #ffffff;
+  font-size: 15px;
+  background: #3d8cb0;
+  padding: 10px 20px 10px 20px;
+  border: solid #ebe9e6 4px;
+  text-decoration: none;
+}
+
+#reset-btn:hover {
+  background: #36719e;
+  text-decoration: none;
+}
+#gen-btn:hover {
+  background: #3cfc49;
+  text-decoration: none;
+}
+
+#footer {
+    bottom: -50px;
+    color: white;
+    height: 2em;
+    left: 0;
+    position: relative;
+    font-size: small;
+    width:100%;
+}
+
+#world-btn {
+  border-radius: 10px;
+  text-shadow: 0px 1px 8px #240924;
+  box-shadow: 0px 1px 3px #666666;
+  font-family: Andale Mono;
+  color: #ffffff;
+  font-size: 15px;
+  background: #3d8cb0;
+  padding: 10px 20px 10px 20px;
+  border: solid #ebe9e6 4px;
+  text-decoration: none;
+  background-color: #bbb;
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+}
+
+#world-btn:hover{
+  background: #666666;
+  text-decoration: none;
+}
+@font-face {
+  font-family: LED; src: url('../fonts/Digital Dismay.otf');
+}
+@font-face {
+  font-family: cty ; src: url('../fonts/Akura Popo.otf');
+}
+
+#country{
+  font-family: cty;
+  color: white;
+  font-size: 40px;
+  padding-left: 20px;
+}
+.time-z {
+  font-family: LED;
+  color: white;
+  font-size: 40px;
+  padding: 10px;
+}
+
+.list-group {
+  margin-top: 25px;
+  display: none;
+  width: 250px;
+}
